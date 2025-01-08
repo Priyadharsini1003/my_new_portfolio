@@ -102,7 +102,13 @@
     background-color: #52565c;
     color: #fff;
 }
-
+@media (max-width: 768px) {
+    .social-links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 @media (min-width: 600px) {
     .topbar-nav {
         display: none;
